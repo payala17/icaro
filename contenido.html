@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Artículo - Terminología SNOMED CT</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md">
+            <div class="container d-flex flex-wrap align-items-center justify-content-between">
+                <h1 class="m-0 text-white">bISS | <strong>blog</strong> de interoperabilidad semántica en salud</h1>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link text-white" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="contenido.html">Contenido</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="contacto.html">Contacto</a></li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+     </header>
+
+    <main class="container my-5">
+        <article class="introduccion-contenido">
+            <h2>¿Qué es la interoperabilidad? ¿Por qué se habla de interoperabilidad semántica?</h2>
+            <p>La interoperabilidad en el contexto de los sistemas de información se refiere a la capacidad de distintos sistemas y aplicaciones, desarrollados por diferentes organizaciones, de comunicarse, intercambiar datos y utilizar la información que comparten de manera efectiva. Máquinas comprendiendosé con máquinas mutuamente.
+            En el ámbito de los Sistemas de Información en Salud (SIS), la interoperabilidad es fundamental para asegurar que la información clínica fluya correctamente entre instituciones, profesionales y plataformas tecnológicas. Esto requiere tanto componentes técnicos (como formatos de datos y protocolos de comunicación) como componentes lingüísticos y semánticos, que garanticen que el significado de los datos se mantenga al ser compartido.</p>
+            <p>La interoperabilidad semántica es un nivel más avanzado que no solo se ocupa de la conexión técnica entre sistemas, sino también de asegurar que el contenido de la información se interprete de la misma manera en todos los contextos. Por ejemplo, que un término médico como "hipertensión arterial" signifique lo mismo para todos los sistemas, sin ambigüedades. Esto se logra mediante el uso de vocabularios y terminologías normalizadas, como SNOMED CT, LOINC o CIE-10, que asignan códigos únicos a conceptos clínicos, permitiendo su uso consistente a lo largo de distintos sistemas, países e idiomas.</p>
+            <h3>Beneficios de la interoperabilidad semántica</h3>
+            <ol>
+                <li><strong>Mejora la calidad del intercambio de datos:</strong> Asegura que la información clínica se entienda de forma uniforme entre sistemas y profesionales.</li>
+                <li><strong>Facilita el análisis de datos clínicos:</strong> Permite agrupar, comparar y analizar datos clínicos provenientes de diversas fuentes de forma precisa.</li>
+                <li><strong>Soporta múltiples idiomas:</strong> Las terminologías estándar pueden utilizarse en diferentes lenguas, manteniendo el mismo significado clínico, lo que favorece la colaboración internacional y la equidad en el acceso a la información.</li>
+            </ol>
+        </article>
+        <section class="terminologias">
+            <h2>Elegir un estandar. Explorar su potencial.</h2>
+            <div class="logos">
+                <div class="estandar">
+                <input type="checkbox" id="toggle-fhir" class="toggle" />
+                <label for="toggle-fhir" class="logo-label">
+                <img src="img/fhir-logo.png" class="logo-redondo" alt="FHIR" >
+                </label>
+                <ul class="articulos">
+                    <li><a href="#">¿Qué es FHIR?</a></li>
+                    <li><a href="#">Estructura de recursos</a></li>
+                    <li><a href="#">FHIR en interoperabilidad</a></li>
+                    <li><a href="https://www.fhir.org/about.html">www.fhir.org (enlace)</a></li>
+                </ul>
+                </div>
+                <div class="estandar">
+                <input type="checkbox" id="toggle-sct" class="toggle" />
+                <label for="toggle-sct" class="logo-label">
+                <img src="img/sct-logo.png" class="logo-redondo" alt="SNOMED CT">
+                </label>
+                <ul class="articulos">
+                    <li><a href="#">¿Qué es SNOMED CT?</a></li>
+                    <li><a href="#">Jerarquías y relaciones</a></li>
+                    <li><a href="https://www.snomed.org">wwww.snomed.org (enlace)</a></li>
+                </ul>
+                </div>
+
+                <div class="estandar">
+                <input type="checkbox" id="toggle-loinc" class="toggle" />
+                <label for="toggle-loinc" class="logo-label">
+                <img src="img/loinc_logo.png" class="logo-redondo" alt="LOINC">
+                </label>
+                <ul class="articulos">
+                    <li><a href="#">¿Qué es LOINC?</a></li>
+                    <li><a href="#">Clasificación de tests</a></li>
+                    <li><a href="https://www.loinc.org">www.loinc.org (enlace)</a></li>
+                </ul>
+                </div>
+            </div>
+        </section>
+  </main>
+
+  <footer class="bg-light text-center py-3">
+  <p><strong>b</strong>ISS | 2025</p>
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
