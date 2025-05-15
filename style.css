@@ -79,7 +79,7 @@ body {
 }
 .transition-btn:hover {
   background-color: #6d716e;
-  color: #228eaa;
+  color: #09835e;
 }
 
 
@@ -138,10 +138,11 @@ footer p a {
 
 .articulos li {
   margin: 5px 0;
+  font-size: 1.2rem;
 }
 
 .articulos a {
-  color: #03c3c3;
+  color: #09835e;
   text-decoration: none;
   font-size: 0.9rem;
 }
