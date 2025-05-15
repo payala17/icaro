@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Artículo - Terminología SNOMED CT</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md">
+            <div class="container d-flex flex-wrap align-items-center justify-content-between">
+                <h1 class="m-0 text-white">bISS | <strong>blog</strong> de interoperabilidad semántica en salud</h1>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link text-white" href="../index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="../contenido.html">Estándares</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="../contacto.html">Contacto</a></li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+     </header>
+
+    <main class="container my-5">
+        <article class="introduccion-contenido">
+            <h2>¿Qué es SNOMED CT (SCT)? </h2>
+            <p>LOINC (Logical Observation Identifiers Names and Codes) es un estándar internacional que proporciona códigos universales para identificar pruebas de laboratorio, mediciones clínicas y observaciones. Su objetivo es facilitar el intercambio y la comprensión de resultados clínicos entre diferentes sistemas, laboratorios e instituciones, garantizando que una misma prueba o medición sea reconocida de manera consistente, sin importar dónde o cómo se realice.</p>
+            <p>Desde el punto de vista de la interoperabilidad semántica, LOINC permite que los datos cuantitativos y cualitativos recogidos en distintas plataformas de salud sean interpretados con el mismo significado. Esto es esencial cuando se integran historias clínicas electrónicas, registros poblacionales o sistemas de análisis clínico, ya que asegura que, por ejemplo, una medición de glucosa en sangre tenga el mismo significado clínico y técnico sin importar el proveedor o el software utilizado.</p>
+            <p>LOINC estructura sus códigos en seis componentes: el análisis o atributo medido (como "Glucosa"), el sistema biológico (como "Sangre"), el momento (como "Punto en el tiempo"), la escala (como "Cuantitativa"), el método (como "Enzimático") y el tipo de propiedad. Esta granularidad permite una codificación precisa y detallada, que es clave para la interoperabilidad de datos clínicos a nivel internacional.</p>
+            <p>En conjunto con otros estándares como SNOMED CT y FHIR, LOINC fortalece la arquitectura semántica de los sistemas de información en salud. Su adopción permite conectar datos provenientes de múltiples fuentes —laboratorios, dispositivos clínicos, registros electrónicos— y aprovecharlos de forma interoperable para análisis clínicos, vigilancia epidemiológica, inteligencia artificial y toma de decisiones médicas, asegurando que todos los actores comprendan exactamente lo mismo al interpretar una observación médica.</p>
+        </article>
+  </main>
+
+  <footer class="bg-light text-center py-3">
+  <p><strong>b</strong>ISS | 2025</p>
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

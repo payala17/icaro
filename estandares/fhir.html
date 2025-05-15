@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Artículo - Terminología SNOMED CT</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md">
+            <div class="container d-flex flex-wrap align-items-center justify-content-between">
+                <h1 class="m-0 text-white">bISS | <strong>blog</strong> de interoperabilidad semántica en salud</h1>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link text-white" href="../index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="../contenido.html">Estándares</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="../contacto.html">Contacto</a></li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+     </header>
+
+    <main class="container my-5">
+        <article class="introduccion-contenido">
+            <h2>¿Qué es FHIR? </h2>
+            <p>FHIR (Fast Healthcare Interoperability Resources) es un estándar desarrollado por HL7 que facilita el intercambio de información clínica entre distintos sistemas de salud. A través de una estructura basada en recursos (resources) reutilizables, FHIR permite representar datos como pacientes, diagnósticos, medicamentos o procedimientos de manera uniforme. Esta estructura es legible tanto por humanos como por máquinas y puede ser accedida mediante interfaces modernas como RESTful APIs, lo que simplifica enormemente la integración entre sistemas.</p>
+            <p>La interoperabilidad semántica es el nivel más avanzado de interoperabilidad, ya que no solo busca conectar sistemas técnicamente, sino también asegurar que el significado clínico de los datos se mantenga intacto entre distintos entornos. FHIR contribuye a esto al integrar terminologías clínicas normalizadas como SNOMED CT, LOINC, y CIE-10, que asignan significados unívocos a cada concepto médico, evitando ambigüedades y errores de interpretación.</p>
+            <p>Al combinar su estructura modular con estas terminologías reconocidas, FHIR permite que los datos clínicos no solo sean intercambiados, sino también comprendidos con precisión en distintos contextos clínicos, idiomas y jurisdicciones. Esto resulta clave en escenarios como la historia clínica compartida, la telemedicina o los sistemas de apoyo a la decisión clínica, donde la interpretación correcta de los datos es crítica para la seguridad del paciente.</p>
+            <p>En resumen, FHIR representa un avance significativo hacia una interoperabilidad semántica real, al ofrecer una forma estandarizada, accesible y semánticamente robusta de compartir información clínica. Su adopción global está transformando la manera en que los sistemas de salud se comunican, mejorando la calidad de atención, reduciendo duplicidades y habilitando un ecosistema digital más integrado y centrado en la persona.</p>                        
+        </article>
+  </main>
+
+  <footer class="bg-light text-center py-3">
+  <p><strong>b</strong>ISS | 2025</p>
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
