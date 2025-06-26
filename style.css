@@ -1,3 +1,4 @@
+
 header {
   font-family: 'Times New Roman', sans-serif;
   background-color: #09835e;
@@ -83,7 +84,6 @@ body {
 }
 
 
-
 h2, h3 {
   color: #09835e;
 }
@@ -155,7 +155,6 @@ footer p a {
 main {
   flex: 1;
 }
-
 
 footer {
   background-color: #44474a2d;
